@@ -1,4 +1,4 @@
-# Minecraft Enchantment Ordering Tool
+# Minecraft Enchantment Ordering Tool NeoEnchant+ support
 
 This web-based tool allows you to find the optimal order for combining enchant books in Minecraft to minimize XP cost.
 

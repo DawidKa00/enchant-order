@@ -83,7 +83,7 @@ function incompatibleGroupFromNamespace(enchantment_namespace) {
         if (!incompatible_already_grouped) {
             incompatible_namespaces.push(incompatible_namespace);
             const enchantment_metadata = enchantments_metadata[incompatible_namespace];
-            const new_incompatible_namespaces = enchantment_metadata.incompatible;
+            const new_incompatible_namespaces = enchantment_metadata?.incompatible || [];
 
             new_incompatible_namespaces.forEach(new_incompatible_namespace => {
                 const new_incompatible_already_grouped = incompatible_namespaces.includes(new_incompatible_namespace);
